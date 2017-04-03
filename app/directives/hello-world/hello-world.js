@@ -6,10 +6,10 @@ module.exports = function (ngModule) {
       restrict: 'E',
       scope: {},
       templateUrl: 'directives/hello-world/hello-world.html',
-      controllerAs: 'vm',
+      controllerAs: 'ctrl',
       controller: function () {
-        var vm = this;
-        vm.greeting = 'Hello, World!';
+        const ctrl = this;
+        ctrl.greeting = 'Hello, World!';
       }
     }
   }
