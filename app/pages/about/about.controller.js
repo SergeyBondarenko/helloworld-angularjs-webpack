@@ -1,7 +1,7 @@
 
 class AboutController {
   constructor () {
-    this.name == 'hello world';
+    this.name = 'hello world';
   }
 }
 
