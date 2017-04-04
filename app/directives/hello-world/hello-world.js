@@ -5,7 +5,7 @@ module.exports = function (myApp) {
     return {
       restrict: 'E',
       scope: {},
-      templateUrl: 'directives/hello-world/hello-world.html',
+      template: require('./hello-world.html'),
       controllerAs: 'ctrl',
       controller: function () {
         const ctrl = this;

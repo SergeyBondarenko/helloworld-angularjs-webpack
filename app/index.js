@@ -1,7 +1,9 @@
 import angular from 'angular';
 import uiRouter from 'angular-ui-router';
 
-const myApp = angular.module('app', ['ui.router']);
+const myApp = angular.module('app', [
+  'ui.router'
+]);
 
 require('./directives')(myApp);
 
