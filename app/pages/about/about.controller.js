@@ -1,6 +1,8 @@
 
-export class AboutController {
+class AboutController {
   constructor () {
     this.name == 'hello world';
   }
 }
+
+export {AboutController};
