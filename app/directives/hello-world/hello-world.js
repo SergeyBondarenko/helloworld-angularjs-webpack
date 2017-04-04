@@ -2,6 +2,7 @@ module.exports = function (myApp) {
   myApp.directive('helloWorld', helloWorldFn);
 
   function helloWorldFn () {
+    require('./hello-world.css');
     return {
       restrict: 'E',
       scope: {},
