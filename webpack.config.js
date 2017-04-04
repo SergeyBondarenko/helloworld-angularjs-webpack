@@ -9,7 +9,8 @@ module.exports = {
     loaders: [
       { test: /\.js$/, loader: 'babel-loader', exclude: /node_modules/ },
       { test: /\.html$/, loader: 'raw-loader', exclude: /node_modules/ },
-      { test: /\.css$/, loader: 'style-loader!css-loader', exclude: /node_modules/ }
+      { test: /\.css$/, loader: 'style-loader!css-loader', exclude: /node_modules/ },
+      { test: /\.styl$/, loader: 'style-loader!css-loader!stylus-loader', exclude: /node_modules/ }
     ]
   }
 };
