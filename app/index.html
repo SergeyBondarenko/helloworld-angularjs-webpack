@@ -6,8 +6,10 @@
   </head>
   <body ng-app="app">
     <h1>Angular 1 with Webpack</h1>
-    <hello-world></hello-world>
-    <p>{{1 + 2}}</p>
+    <a ui-sref="home" ui-sref-active="active">Home</a>
+    <a ui-sref="about" ui-sref-active="active">About</a>
+
+    <ui-view></ui-view>
     <script src="bundle.js"></script>
   </body>
 </html>

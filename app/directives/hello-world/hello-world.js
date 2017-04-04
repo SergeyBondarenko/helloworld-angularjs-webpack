@@ -1,5 +1,5 @@
-module.exports = function (ngModule) {
-  ngModule.directive('helloWorld', helloWorldFn);
+module.exports = function (myApp) {
+  myApp.directive('helloWorld', helloWorldFn);
 
   function helloWorldFn () {
     return {
